@@ -6,16 +6,34 @@
     <title>Nils student 2024</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="bg"></div>
 
 <div class="content">
   <div class="banner"></div>
+  <div class="dropdown">
+    <button class="dropbtn">Choose Language</button>
+    <div class="dropdown-content">
+        <a href="#" onclick="changeLanguage('swe')">
+            <span class="flag-icon swe-flag"></span>SWE
+        </a>
+        <a href="#" onclick="changeLanguage('ger')">
+            <span class="flag-icon ger-flag"></span>GER
+        </a>
+        <a href="#" onclick="changeLanguage('eng')">
+            <span class="flag-icon eng-flag"></span>ENG
+        </a>
+        <a href="#" onclick="changeLanguage('fr')">
+            <span class="flag-icon fr-flag"></span>FR
+        </a>
+    </div>
+    </div>
   <p>
-    <b style="font-family: Dancing Script, cursive; font-weight: 700; font-size: 40px;">Välkommen till Nils student!</b><br><br>
-    Tryck på knappen nedan för att meddela oss om ditt deltagande!<br>
-    En fil kommer att laddas ner där du kan skicka in ditt svar.
+    <b data-key="welcome" style="font-family: Dancing Script, cursive; font-weight: 700; font-size: 40px;">Välkommen till Nils student!</b><br><br>
+    <span data-key="instruction">Tryck på knappen nedan för att meddela oss om ditt deltagande!<br></span>
+    <span data-key="information">Ett formulär kommer att öppnas där ni kan fylla i all nödvändig information.</span>
   </p>
   <div>
     <!-- Placeholder for QR Code, use an actual QR code image or generator here -->
@@ -23,8 +41,8 @@
     <!--<button class="button">
         <span>Student!</span>
       </button>-->
-    <!--<a href="https://qrshare.io/dl?q=ajLXROWVPZkj" class="button"><span>Fortsätt</span></a>-->
-    <a href="Nils Studenten.ics" class="button" download="Nils Studenten (1).ics"><span>Ladda ner fil</span></a>
+    <a href="https://forms.gle/YTTjodp659se5Y8g6" class="button" target="_blank"><span data-key="button">Gå Till Formuläret</span></a>
+    <!--<a href="Nils Studenten.ics" class="button" download="Nils Studenten.ics"><span>Ladda ner fil</span></a>-->
   </div>
 
 </div>
