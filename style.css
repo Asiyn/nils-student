@@ -60,7 +60,9 @@ body, html {
     width: 100%;
     height: 150px; /* Fixed height */
     margin-bottom: 20px;
-    background-image: url('banner2.jpg'); /* Placeholder for the banner image */
+    background-color: #5d4bff6c;
+    background-image: url('mössa.png'); /* Placeholder for the banner image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.363);
     background-size: contain; /* Contain the image within the banner div */
     background-repeat: no-repeat;
     background-position: center;
